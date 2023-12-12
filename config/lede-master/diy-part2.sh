@@ -33,6 +33,8 @@ rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 rm -rf package/OpenAppFilter
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+rm -rf package/luci-app-passwall
+git clone https://github.com/topics/luci-app-passwall.git package/luci-app-passwall
 #
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
